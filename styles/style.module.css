@@ -1,19 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  background-color: #e0e5ec;
-}
 .outer-morphic-btn-before {
   border-radius: 50px;
-  background: linear-gradient(145deg, #e0e5ec, #c2cbd9);
-  box-shadow: 2px 2px 4px #a3b1c6, -2px -2px 4px #ffffff;
+  background: linear-gradient(145deg, #f0f5fd, #caced4);
+  box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
 }
 .outer-morphic-btn-after {
   border-radius: 50px;
-  background: linear-gradient(145deg, #c2cbd9, #e0e5ec);
-  box-shadow: 2px 2px 4px #a3b1c6, -2px -2px 4px #ffffff;
+  background: linear-gradient(145deg, #caced4, #f0f5fd);
+  box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
 }
 .morphic-card-flat {
   border-radius: 50px;
@@ -25,10 +18,3 @@ body {
   background: #e0e5ec;
   box-shadow: inset 20px 20px 60px #bec3c9, inset -20px -20px 60px #ffffff;
 }
-
-/* 
-c1: #FFFFFF
-c2: #E0E5EC
-c3: #C2CBD9
-c4: #A3B1C6
-*/
