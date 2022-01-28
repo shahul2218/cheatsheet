@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer utilities {
-  @media (min-width: 425px) {
-    .sm\:grid-cols-3 {
-      @apply grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-} */
-
 body {
   background-color: #e0e5ec;
 }
@@ -24,14 +16,14 @@ body {
   box-shadow: 2px 2px 4px #a3b1c6, -2px -2px 4px #ffffff;
 }
 .morphic-card-flat {
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   background: #e0e5ec;
-  box-shadow: 2px 2px 6px #bec3c9, -2px -2px 6px #ffffff;
+  box-shadow: 2px 2px 6px #a3b1c6, -2px -2px 6px #ffffff;
 }
 .morphic-card-inner {
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   background: #e0e5ec;
-  box-shadow: inset 2px 2px 6px #bec3c9, inset -2px -2px 6px #ffffff;
+  box-shadow: inset 2px 2px 6px #a3b1c6, inset -2px -2px 6px #ffffff;
 }
 .c-round {
   box-shadow: 0 0 6px #a3b1c6;
