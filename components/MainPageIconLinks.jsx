@@ -8,7 +8,6 @@ const MainPageIconLinks = () => {
       </h2>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-9 gap-4">
         <div className="morphic-card-flat mx-auto">
-          1
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -18,7 +17,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          2
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -28,7 +26,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          3
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -38,7 +35,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          4
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -48,7 +44,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          5
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -58,7 +53,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          6
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -68,7 +62,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          7
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -78,7 +71,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          8
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -88,7 +80,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          9
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -98,7 +89,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          10
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -108,7 +98,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          11
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -118,7 +107,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          12
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -128,7 +116,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          13
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -138,7 +125,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          14
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -148,7 +134,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          15
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -158,7 +143,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          16
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -168,7 +152,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          17
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -178,7 +161,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          18
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -188,7 +170,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          19
           <Image
             src="/html.png"
             alt="site brand logo"
@@ -198,7 +179,6 @@ const MainPageIconLinks = () => {
           />
         </div>
         <div className="morphic-card-flat mx-auto">
-          20
           <Image
             src="/html.png"
             alt="site brand logo"
