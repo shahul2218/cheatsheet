@@ -1,15 +1,14 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import SinglePost from "../components/SinglePost";
+import { api_key } from "../src/config/config";
 
 const Movies = () => {
   const [content, setContent] = useState([]);
-  let api_key;
   const fetchTrending = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/trending/movie/week?api_key=${api_key}`
     );
-    console.log(data.results);
     setContent(data.results);
   };
 
