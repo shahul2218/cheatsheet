@@ -4,7 +4,7 @@ import SinglePost from "../components/SinglePost";
 
 const Movies = () => {
   const [content, setContent] = useState([]);
-
+  let api_key;
   const fetchTrending = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/trending/movie/week?api_key=${api_key}`
