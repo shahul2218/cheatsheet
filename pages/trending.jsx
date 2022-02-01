@@ -6,7 +6,9 @@ const Movies = () => {
   const [content, setContent] = useState([]);
 
   const fetchTrending = async () => {
-    const { data } = await axios.get(`{process.env.apiKey}`);
+    const { data } = await axios.get(
+      `https://api.themoviedb.org/3/trending/movie/week?api_key=${api_key}`
+    );
     console.log(data.results);
     setContent(data.results);
   };
