@@ -42,3 +42,7 @@ c2: #E0E5EC
 c3: #C2CBD9
 c4: #A3B1C6
 */
+
+.slick-prev:before, .slick-next:before {
+  color: red !important;
+}
