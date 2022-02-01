@@ -2,22 +2,18 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import SinglePost from "../components/SinglePost";
 
+const Movies = () => {
+  const [content, setContent] = useState([]);
 
-const Movies = () =>
-{
-  const [ content, setContent ] = useState( [] );
-  
-  const fetchTrending = async() =>{
-    const { data } = await axios.get(`https://api.themoviedb.org/3/trending/movies/day?api_key=5348e308ac5c456c4e7f76cec211f57a&language=en-IN&region=IN`);
-    
-    setContent( data.results );
-  }
+  const fetchTrending = async () => {
+    const { data } = await axios.get(`{process.env.apiKey}`);
+    console.log(data.results);
+    setContent(data.results);
+  };
 
-  useEffect( () =>
-  {
+  useEffect(() => {
     fetchTrending();
-  },[] );
-
+  }, []);
 
   return (
     <section className="text-gray-600 body-font">
@@ -31,10 +27,20 @@ const Movies = () =>
           pug.
         </p>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
-        { content && content.map((c) =>{
-          return <SinglePost key={ c.id } id={ c.id } poster={ c.poster_path } title={ c.title || c.name}/>
-        })}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4">
+        {content &&
+          content.map((c) => {
+            return (
+              <SinglePost
+                key={c.id}
+                id={c.id}
+                poster={c.poster_path}
+                title={c.title || c.name}
+                votes={c.vote_average}
+                date={c.release_date}
+              />
+            );
+          })}
       </div>
     </section>
   );
