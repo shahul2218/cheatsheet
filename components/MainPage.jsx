@@ -7,7 +7,7 @@ const MainPage = () => {
   const [content, setContent] = useState([]);
   const fetchTrending = async () => {
     const { data } = await axios.get(
-      `https://api.themoviedb.org/3/trending/movie?api_key=5348e308ac5c456c4e7f76cec211f57a&language=en&region=IN&sort_by=popularity.desc&page=1&with_original_language=hi`
+      `https://api.themoviedb.org/3/movie/popular?api_key=5348e308ac5c456c4e7f76cec211f57a&language=en&page=1&region=IN`
     );
     console.log(data.results);
     setContent(data.results);
@@ -19,7 +19,7 @@ const MainPage = () => {
   const [tv, setTv] = useState([]);
   const fetchTrendingTV = async () => {
     const { data } = await axios.get(
-      `https://api.themoviedb.org/3/tv/top_rated?api_key=5348e308ac5c456c4e7f76cec211f57a&language=en-IN&page=1&region=IN`
+      `https://api.themoviedb.org/3/tv/top_rated?api_key=5348e308ac5c456c4e7f76cec211f57a&language=en&page=1&region=IN`
     );
     setTv(data.results);
   };
@@ -51,7 +51,7 @@ const MainPage = () => {
                 />
               );
             })}
-          {/* {tv &&
+          {tv &&
             tv.map((c) => {
               return (
                 <SinglePost
@@ -63,7 +63,7 @@ const MainPage = () => {
                   date={c.release_date}
                 />
               );
-            })} */}
+            })}
         </div>
       </section>
       {/* <section className="text-gray-600 body-font">
