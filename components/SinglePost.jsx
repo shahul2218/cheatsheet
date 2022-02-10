@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { img_300, unavailable } from "../src/config/config";
 
@@ -11,11 +12,13 @@ const SinglePost = ({ id, poster, title, votes, date }) => {
         width={300}
         height={400}
       />
-      <h2 className="text-pink-500">{title}</h2>
-      <span className="text-emerald-700 font-semibold">{date}</span>
-      <section className="mt-1 top-2 right-3 absolute">
+      <a href="/up-comming/" id>
+        <h2 className="text-emerald-700 font-semibold">{title}</h2>
+      </a>
+      <span className="text-pink-500">{date}</span>
+      {/* <section className="mt-1 top-2 right-3 absolute">
         <span className={getColor(votes)}>{votes}</span>
-      </section>
+      </section> */}
     </div>
   );
 };

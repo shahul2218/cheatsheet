@@ -4,8 +4,8 @@ export const menuLinks = [
     url: "/",
   },
   {
-    title: "trending",
-    url: "/trending",
+    title: "up-comming",
+    url: "/up-comming",
   },
   {
     title: "tv shows",
