@@ -12,9 +12,7 @@ const SinglePost = ({ id, poster, title, votes, date }) => {
         width={300}
         height={400}
       />
-      <a href="/up-comming/" id>
         <h2 className="text-emerald-700 font-semibold">{title}</h2>
-      </a>
       <span className="text-pink-500">{date}</span>
       {/* <section className="mt-1 top-2 right-3 absolute">
         <span className={getColor(votes)}>{votes}</span>
